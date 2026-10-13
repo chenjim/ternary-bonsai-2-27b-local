@@ -7,7 +7,8 @@
 ```
 Ternary-Bonsai-2-27B-PTQ1_0.gguf   模型，5.53GiB，26.9B 参数，1.75bpw 三值量化
 runtime\                           PrismML 定制 llama.cpp，Windows CUDA 12.4，build b10772
-logs\                              部署过程日志（bench.log 为测速结果）
+verify\verify.py                   质量验证脚本（12 题自动判分，需先起 llama-server:8080）
+logs\                              部署过程日志（bench.log 为测速，logs\verify\ 为质量验证结果）
 README.md                          部署博文（过程、踩坑、实测）
 ```
 
@@ -32,6 +33,7 @@ runtime\llama-server.exe -m Ternary-Bonsai-2-27B-PTQ1_0.gguf -ngl 99 -fa on -c 1
 ## 硬件基线（RTX 4060 Laptop 8GB / 32GB 内存）
 
 - tg128 生成 13.1 t/s，pp512 提示处理 287 t/s
+- 质量验证 12/12 通过（8 数学精确判分 + 4 代码实际执行）；官方"留存 98.2%"未经本地复现
 - 8GB 显存下上下文建议 8K~16K；262K 上下文需要大显存
 - 参考：RTX 5090 为 130 t/s，M5 Max 为 47 t/s
 

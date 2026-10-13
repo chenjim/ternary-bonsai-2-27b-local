@@ -1,0 +1,78 @@
+{
+  "total": 12,
+  "passed": 12,
+  "items": [
+    {
+      "id": "math-1",
+      "pass": true,
+      "detail": "got 391, want 391",
+      "seconds": 3.6
+    },
+    {
+      "id": "math-2",
+      "pass": true,
+      "detail": "got 39, want 39",
+      "seconds": 3.3
+    },
+    {
+      "id": "math-3",
+      "pass": true,
+      "detail": "got 100, want 100",
+      "seconds": 5.0
+    },
+    {
+      "id": "math-4",
+      "pass": true,
+      "detail": "got 60, want 60",
+      "seconds": 3.0
+    },
+    {
+      "id": "math-5",
+      "pass": true,
+      "detail": "got 192, want 192",
+      "seconds": 5.3
+    },
+    {
+      "id": "math-6",
+      "pass": true,
+      "detail": "got 5, want 5",
+      "seconds": 6.5
+    },
+    {
+      "id": "math-7",
+      "pass": true,
+      "detail": "got 5, want 5",
+      "seconds": 4.9
+    },
+    {
+      "id": "math-8",
+      "pass": true,
+      "detail": "got 8, want 8",
+      "seconds": 4.3
+    },
+    {
+      "id": "code-1",
+      "pass": true,
+      "detail": "all asserts passed",
+      "seconds": 9.2
+    },
+    {
+      "id": "code-2",
+      "pass": true,
+      "detail": "all asserts passed",
+      "seconds": 7.7
+    },
+    {
+      "id": "code-3",
+      "pass": true,
+      "detail": "all asserts passed",
+      "seconds": 16.3
+    },
+    {
+      "id": "code-4",
+      "pass": true,
+      "detail": "all asserts passed",
+      "seconds": 12.6
+    }
+  ]
+}
