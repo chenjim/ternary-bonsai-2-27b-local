@@ -1,0 +1,41 @@
+
+
+Loading model... 
+
+▄▄ ▄▄
+██ ██
+██ ██  ▀▀█▄ ███▄███▄  ▀▀█▄    ▄████ ████▄ ████▄
+██ ██ ▄█▀██ ██ ██ ██ ▄█▀██    ██    ██ ██ ██ ██
+██ ██ ▀█▄██ ██ ██ ██ ▀█▄██ ██ ▀████ ████▀ ████▀
+                                    ██    ██
+                                    ▀▀    ▀▀
+
+build      : b10772-e8fd209c9
+model      : Ternary-Bonsai-2-27B-PTQ1_0.gguf
+ftype      : PTQ1_0 - 1.75 bpw ternary (group 128)
+modalities : text
+
+available commands:
+  /exit or Ctrl+C     stop or exit
+  /regen              regenerate the last response
+  /clear              clear the chat history
+  /read <file>        add a text file
+  /glob <pattern>     add text files using globbing pattern
+
+
+
+> ﻿Say hello in one word.
+
+[Start thinking]
+
+We need respond to user: "Say hello in one word." Need final one word: Hello. Ensure no extra.
+[End thinking]
+
+Hello
+
+[ Prompt: 103.2 t/s | Generation: 9.4 t/s ]
+
+> 
+> 
+> 
+> [0m

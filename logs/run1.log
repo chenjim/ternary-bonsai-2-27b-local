@@ -1,0 +1,37 @@
+﻿
+
+Loading model... 
+
+▄▄ ▄▄
+██ ██
+██ ██  ▀▀█▄ ███▄███▄  ▀▀█▄    ▄████ ████▄ ████▄
+██ ██ ▄█▀██ ██ ██ ██ ▄█▀██    ██    ██ ██ ██ ██
+██ ██ ▀█▄██ ██ ██ ██ ▀█▄██ ██ ▀████ ████▀ ████▀
+                                    ██    ██
+                                    ▀▀    ▀▀
+
+build      : b10772-e8fd209c9
+model      : Ternary-Bonsai-2-27B-PTQ1_0.gguf
+ftype      : PTQ1_0 - 1.75 bpw ternary (group 128)
+modalities : text
+
+available commands:
+  /exit or Ctrl+C     stop or exit
+  /regen              regenerate the last response
+  /clear              clear the chat history
+  /read <file>        add a text file
+  /glob <pattern>     add text files using globbing pattern
+
+
+
+> What is 2+2? Answer briefly.
+
+[Start thinking]
+
+We need answer briefly. Simple. Final: 4.
+[End thinking]
+
+4
+
+[ Prompt: 83.7 t/s | Generation: 17.3 t/s ]
+

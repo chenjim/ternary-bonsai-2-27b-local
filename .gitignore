@@ -1,0 +1,8 @@
+# 大文件：模型权重与运行时（均可按 README/AGENTS.md 中的 URL 重新下载）
+*.gguf
+*.zip
+runtime/
+
+# 运行残留
+.cache/
+*.incomplete
